@@ -18,8 +18,8 @@ print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
-print("4.Divide")
-print("5.Percentage")
+print("4.Percentage")
+print("5.Divide")
 
 while True:
     choice = input("Enter choice(1/2/3/4/5): ")
@@ -41,9 +41,9 @@ while True:
         elif choice == '3':
             print(num1, "*", num2, "=", multiply(num1, num2))
 
-        elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
         elif choice == '5':
+            print(num1, "/", num2, "=", divide(num1, num2))
+        elif choice == '4':
             print(num1, '%', num2, "=", percentage(num1, num2))
 
         next_calculation = input("Let's do next calculation? (yes/no): ")
